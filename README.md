@@ -1,4 +1,4 @@
-# jack
+# jackGanar
 
 ## Project setup
 
