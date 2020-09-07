@@ -1,6 +1,10 @@
 <template>
   <div>
-    <p>Hello On our Website!</p>
+    <p>
+      Hello!<br />
+      Today is good day for win!<br />
+      Go and check EuroJack drawing results
+    </p>
     <button @click="onClickBtn">Check the results of lottery!</button>
   </div>
 </template>
@@ -10,7 +14,7 @@ export default {
   name: "Welcome",
   methods: {
     onClickBtn() {
-      this.$router.push("/results")
+      this.$router.push("/home")
     }
   }
 }
