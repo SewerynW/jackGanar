@@ -24,7 +24,7 @@
         <div class="welcome--content--redirect--text">
           <p>
             Today is good day for
-            <span class="__dynamicColor">Win!</span>
+            <span class="__dynamicColor" style="font-weight: bold">Win!</span>
           </p>
           <p>Click button and go check EuroJack drawing results</p>
 
