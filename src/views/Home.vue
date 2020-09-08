@@ -5,12 +5,13 @@
     </div>
     <div v-if="draws" class="home--content">
       <winning-numbers
+        class="home--content--winning-numbers"
         :draw="getDraw"
         :dayOptions="dayOptions"
         :selectedDay="selectedDay"
         :changeDay="changeDay"
       />
-      <winning-class :draw="getDraw" />
+      <winning-class class="home--content--winning-class" :draw="getDraw" />
     </div>
   </div>
 </template>
@@ -98,8 +99,10 @@ export default {
 
 <style lang="scss" scoped>
 .home {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   &--logo {
     text-align: center;
@@ -115,6 +118,25 @@ export default {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    justify-content: start;
+
+    &--logo {
+      margin-top: 40px;
+    }
+
+    &--content {
+      grid-template-columns: 1fr;
+
+      &--winning-numbers,
+      &--winning-class {
+        margin-bottom: 40px;
+      }
+    }
   }
 }
 </style>

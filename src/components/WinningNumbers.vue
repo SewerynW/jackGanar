@@ -102,6 +102,8 @@ export default {
 }
 
 .winning-numbers {
+  max-height: 280px;
+
   header {
     padding: 10px;
     border-top-right-radius: 10px;

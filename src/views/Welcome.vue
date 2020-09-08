@@ -65,7 +65,7 @@ export default {
   }
 
   &--content {
-    margin-top: 50px;
+    padding-top: 50px;
 
     h1 {
       font-size: 24px;
@@ -86,6 +86,37 @@ export default {
         p {
           margin-bottom: 15px;
           opacity: 60%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .welcome {
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+    &--top {
+      flex-direction: column;
+      img {
+        padding-top: 20px;
+      }
+    }
+
+    &--content {
+      h1 {
+        width: 90%;
+      }
+
+      &--redirect {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 50px 0px 0px;
+        margin: 0px;
+        &--text {
+          padding-top: 50px;
+          text-align: center;
         }
       }
     }
