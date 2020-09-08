@@ -72,7 +72,6 @@ export default {
       text-align: center;
       width: 80%;
       margin: auto;
-      opacity: 60%;
     }
 
     &--redirect {
@@ -85,7 +84,6 @@ export default {
 
         p {
           margin-bottom: 15px;
-          opacity: 60%;
         }
       }
     }
