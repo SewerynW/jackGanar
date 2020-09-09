@@ -1,4 +1,8 @@
-# jackGanar
+# JackGanar
+
+##
+
+' Go And check it on: https://silly-lovelace-c5c303.netlify.app/'
 
 ## Project setup
 
@@ -24,6 +28,14 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
+### e2e tests in console
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+npm run test:e2e
+```
+
+### e2e test with panel
+
+```
+npm run test:e2e:open
+```
