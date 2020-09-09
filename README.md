@@ -2,40 +2,31 @@
 
 ##
 
-' Go And check it on: https://silly-lovelace-c5c303.netlify.app/'
+Go And check it on: https://silly-lovelace-c5c303.netlify.app/
 
 ## Project setup
 
-```
-npm install
-```
+```bash
 
-### Compiles and hot-reloads for development
+# download project
+$ git clone https://github.com/SewerynW/jackGanar.git
 
-```
-npm run dev
-```
+# install dependencies
+$ npm install
 
-### Compiles and minifies for production
+# Compiles and hot-reloads for development
+$ npm run dev
 
-```
-npm run build
-```
+# Compiles and minifies for production
+$ npm run build
 
-### Lints and fixes files
+# lints and fixes files
+$ npm run lint
 
-```
-npm run lint
-```
+# e2e tests in console
+$ npm run test:e2e
 
-### e2e tests in console
+# e2e test with panel
+$ npm run test:e2e:open
 
-```
-npm run test:e2e
-```
-
-### e2e test with panel
-
-```
-npm run test:e2e:open
 ```
